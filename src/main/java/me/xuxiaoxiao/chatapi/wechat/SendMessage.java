@@ -2,6 +2,8 @@ package me.xuxiaoxiao.chatapi.wechat;
 
 import java.io.File;
 
+import me.xuxiaoxiao.chatapi.wechat.WeChatApi;
+import me.xuxiaoxiao.chatapi.wechat.WeChatClient;
 import me.xuxiaoxiao.chatapi.wechat.entity.contact.WXContact;
 import me.xuxiaoxiao.chatapi.wechat.entity.message.WXFile;
 import me.xuxiaoxiao.chatapi.wechat.entity.message.WXImage;
@@ -12,7 +14,7 @@ import me.xuxiaoxiao.chatapi.wechat.entity.message.WXVoice;
 
 /**
  * 通用发送撤回消息工具类
- * 
+ *
  * @author Herrywxr
  *
  */

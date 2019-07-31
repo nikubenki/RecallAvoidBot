@@ -4,17 +4,14 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import me.xuxiaoxiao.chatapi.wechat.entity.MessageCache;
 import me.xuxiaoxiao.chatapi.wechat.entity.contact.WXContact;
-import me.xuxiaoxiao.chatapi.wechat.entity.contact.WXUser;
 import me.xuxiaoxiao.chatapi.wechat.entity.message.WXMessage;
 import me.xuxiaoxiao.chatapi.wechat.entity.message.WXRevoke;
-import me.xuxiaoxiao.chatapi.wechat.entity.message.WXUnknown;
 import me.xuxiaoxiao.chatapi.wechat.entity.message.WXVerify;
 
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Queue;
-import java.util.Scanner;
 import java.util.concurrent.LinkedBlockingQueue;
 
 public class RevockeBot {
